@@ -50,6 +50,7 @@ export default function Register() {
             {...register("role")}
             className="w-full border p-3 rounded-lg"
           >
+            <option value="ADMIN">Admin</option>
             <option value="RESIDENT">Resident</option>
             <option value="SOCIETY_MANAGER">Society Manager</option>
             <option value="SECURITY">Security</option>
